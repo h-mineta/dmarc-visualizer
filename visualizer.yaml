@@ -57,7 +57,7 @@ spec:
         - name: GF_AUTH_ANONYMOUS_ENABLED
           value: "true"
       image: localhost/grafana:parsedmarc
-      name: dmarc-visualizer-grafana
+      name: grafana
       ports:
         - containerPort: 3000
           hostPort: 3000
