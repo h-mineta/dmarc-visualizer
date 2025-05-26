@@ -5,7 +5,7 @@ datasources:
   type: 'elasticsearch'
   access: 'proxy'
   orgId: 1
-  url: 'http://elasticsearch:9200'
+  url: 'http://localhost:9200'
   database: '[dmarc_aggregate-]YYYY-MM-DD'
   isDefault: true
   jsonData:
@@ -18,7 +18,7 @@ datasources:
   type: 'elasticsearch'
   access: 'proxy'
   orgId: 1
-  url: 'http://elasticsearch:9200'
+  url: 'http://localhost:9200'
   database: '[dmarc_forensic-]YYYY-MM-DD'
   isDefault: false
   jsonData:
